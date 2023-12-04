@@ -1,14 +1,15 @@
-import SEO from "../common/seo";
-import HomeOne from "../components/homes/home";
-import Wrapper from "../layout/wrapper";
+import React from 'react';
+import Wrapper from '../layout/wrapper';
+import SEO from '../common/seo';
+import HomeThree from '../components/homes/home-3';
 
-const Home = () => {
-  return (
-    <Wrapper>
-      <SEO pageTitle={"Technix Main Home"} />
-      <HomeOne />
-    </Wrapper>
-  );
+const index = () => {
+    return (
+        <Wrapper>
+            <SEO pageTitle="Regedit" /> 
+            <HomeThree />           
+        </Wrapper>
+    );
 };
 
-export default Home;
+export default index;

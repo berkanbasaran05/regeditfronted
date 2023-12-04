@@ -7,7 +7,7 @@ const NavMenu = () => {
     <>
       <ul> 
         {menu_data.map((menu_item, i) => (
-          <li key={i} className={`${menu_item?.has_dropdown && "has-dropdown"}`}>
+          <li key={i} className={`${menu_item?.has_dropdown && ""}`}>
             <Link href={menu_item.link}> 
               <span></span>
               {menu_item.title}

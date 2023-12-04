@@ -8,11 +8,12 @@ import BrandArea from "@/src/common/brand-area";
 import BlogArea from "@/src/common/blog-area";
 import FooterContact from "@/src/layout/footers/footer-contact";
 import FooterThree from "@/src/layout/footers/footer-3";
+import HeaderThree from "@/src/layout/headers/header-3";
 
 const Sevice = () => {
   return (
     <>
-      <HeaderOne />
+      <HeaderThree />
       <main>
             <Breadcrumb top_title="Our Services" page_title="Service" />
             <ServiceArea />

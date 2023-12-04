@@ -7,8 +7,8 @@ const menu_data = [
     has_dropdown: true,
     home_icon: <HomeIcon />,
     title: "Anasayfa",
-    link: "/home-3",
-    active: "",
+    link: "/",
+  
     
   },
   {
